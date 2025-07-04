@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css float and clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        img{
+            float: right;
+        }
+        .card{
+            border: 2px solid red;
+            margin: 3px;
+        }
+        .card:nth-child(3){
+            background-color: aqua;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="card.png" alt="my_image" width="200px" height="300px">
+        <div class="card">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt, assumenda ipsa veniam voluptatibus sequi cumque repellat eligendi doloremque consequuntur.
+            </p>
+        </div>
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatibus atque minima soluta ad ut magni repudiandae, aut molestias earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est recusandae molestias itaque tenetur incidunt qui error ex animi, eaque voluptatibus dolor sed officia aspernatur adipisci quod omnis rerum, sapiente nobis quasi excepturi corrupti? Voluptatibus deserunt possimus quas, adipisci vel ad dolores mollitia iusto quos modi quod ratione, commodi saepe ex magnam nemo. Omnis natus expedita ea placeat id veritatis blanditiis iste accusantium labore voluptates quaerat porro adipisci sunt dolores nostrum facere, provident enim tempora repellat saepe dolore nulla at iure ab? Illum ipsa quod officiis error facere tenetur, rem itaque consequuntur fugiat consequatur esse eaque excepturi neque voluptas a sit mollitia labore, culpa nulla? Molestiae, ab neque praesentium incidunt voluptate suscipit repellendus eaque sit itaque reprehenderit expedita, nemo, ipsa beatae sint fugit asperiores. Itaque porro fugiat iste voluptates, et reiciendis debitis officiis eius cupiditate nemo quisquam sit cum dolore tempora sunt inventore ipsa magnam laudantium, ex repellendus at harum architecto magni! Ut quis corrupti, rerum esse, culpa voluptates voluptas similique at suscipit nesciunt magni voluptatum praesentium ea accusantium repellat! Laboriosam recusandae excepturi, veritatis officiis dignissimos quam delectus fugit. Excepturi architecto a similique totam minima ullam quis at aperiam autem incidunt facilis provident animi cumque, accusantium ut nulla, fuga quas ad.</p>
+        </div>
+        <div class="card">
+            <p>cards 3</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on css selector</title>
+    <style>
+        /* *{
+            margin: 20px 0 0 10px;
+            padding: 5px;
+        } */
+         /* .boxes{
+            background-color: aqua;
+            border: 2px solid black;
+         } */
+        /* .box{
+            background-color: brown;
+            color: white;
+            padding-left: 20px;
+            margin: 3px;
+            border: 2px solid blue;
+        } */
+        /* .box:nth-child(odd){
+            color: blue;
+        } */
+         .boxes::before{
+            content: "sigma web development";
+            color: brown;
+         }
+         .boxes::after{
+            content: "BBSUL";
+         }
+         ::selection{
+            color: aqua;
+            background-color: black;
+         }
+         .box::first-letter{
+            color: blue;
+            font-size: 45px;
+            text-transform: capitalize;
+         }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">i am a box number 1</div>
+        <div class="box">i am a box number 2</div>
+        <div class="box">i am a box number 3</div>
+    </div>
+</body>
+</html>

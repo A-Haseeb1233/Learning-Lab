@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+  background-color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.logo p {
+  color: rgb(0, 102, 255);
+  font-weight: 900;
+}
+
+.second-logo span {
+  font-weight: 900;
+}
+
+.container2 {
+  background-image: url(slider.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  font-family: sans-serif;
+}
+
+.slider {
+  padding-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.para1 {
+  font-size: 50px;
+  color: white;
+  text-transform: uppercase;
+  /* position: relative;
+    top: 50px; */
+  padding-top: 50px;
+}
+
+.para1 span {
+  font-size: 80px;
+  color: blue;
+  font-weight: 600;
+}
+
+.tick-list {
+  list-style-type: none;
+  color: white;
+  font-size: 25px;
+}
+
+.tick-list li::before {
+  content: "✓";
+  /* Unicode for the tick */
+  color: green;
+  /* You can change the color of the tick */
+  margin-right: 10px;
+  /* Space between tick and text */
+  color: white;
+}
+
+.sliderpart2 {
+  margin-top: 50px;
+  background-color: blue;
+  /* width: '100px';
+    height: 250px; */
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  max-width: 300px;
+}
+
+.sliderpart2 h1 {
+  text-transform: uppercase;
+  font-size: 32px;
+  padding: 10px 10px 5px 10px;
+}
+
+.sliderpart2 p {
+  font-size: 9px;
+  padding-bottom: 5px;
+}
+
+.sliderpart2 input {
+  width: 85%;
+  height: 25px;
+  margin-top: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 2px;
+  padding: 5px;
+  border: none;
+  background-color: rgba(227, 230, 233, 1);
+}
+
+.placeholder::placeholder {
+  color: black;
+  font-size: 14px;
+  font-style: italic;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.sliderpart2 button {
+  padding: 8px 36px;
+  margin-top: 5px;
+  background-color: black;
+  color: white;
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.sliderpart2 button:hover {
+  color: black;
+  background-color: white;
+}
+
+.section3 {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.section3img {
+  width: 350px;
+  height: 350px;
+}
+
+.headsection3 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-size: 27px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.parasection3 {
+  font-size: 25px;
+}
+
+.section3 h3 {
+  font-size: 24px;
+  color: blue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.subsection3 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.subsection3 p {
+  font-size: 14px;
+}
+
+.container4 {
+  background-color: black;
+}
+
+.section4 {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.headsection4 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.parasection4 {
+  padding-bottom: 20px;
+}
+
+.subsection4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+}
+
+.subsection4 img {
+  width: 500px;
+  height: 310px;
+  padding-right: 30px;
+}
+
+.sub4para1 {
+  padding-bottom: 20px;
+  padding-top: 12px;
+  text-align: justify;
+}
+
+.sub4para2 {
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.sub4para3 {
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.container5 {
+  background-color: blue;
+}
+
+.section5 {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.headsection5 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.parasection5 {
+  padding-bottom: 20px;
+}
+
+.subsection5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+}
+
+.subsection5 img {
+  width: 500px;
+  height: 310px;
+  padding-left: 30px;
+}
+
+.sub5para1 {
+  padding-top: 12px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.sub5para2 {
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.sub5para3 {
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.section6 {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.headsection6 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.parasection6 {
+  padding-bottom: 20px;
+}
+
+.subsection6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+}
+
+.subsection6 img {
+  width: 500px;
+  height: 310px;
+  padding-right: 30px;
+}
+
+.sub6para1 {
+  padding-top: 12px;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+.sub6para2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+.sub6para3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+.sub6para4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+hr {
+  border: 1px solid blue;
+}
+
+.container7 {
+  background-color: black;
+}
+
+.section7 p {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-family: sans-serif;
+  color: white;
+}
+
+#section7span {
+  text-transform: uppercase;
+  color: blue;
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+}
+
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
